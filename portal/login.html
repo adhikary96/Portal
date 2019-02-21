@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page Design with CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .btn-props{
+            font-size: 15px;
+            padding: 4px 4px;
+            width: 100px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 500;
+        }
+        .text-props{
+            padding: 4px 4px;
+            width: 200px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .text-login{
+            padding: 8px 8px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600;
+            font-size: 50px;
+        }
+        
+        .div-border{
+            height:150px;
+            
+        }
+    </style>
+    
+</head>
+<body><center>
+    <div class="div-border"></div>
+    <table id="table" name="table" >
+        <form id="form" name="form" >
+            <tr>
+                <th colspan="2" id="loginHere"  class="text-login">
+                    TDM Portal
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input class="text-props" type="text" id="username" name="username" placeholder="Username"/>
+                </th>
+            </tr>
+            
+            <tr>
+                <th>
+                    <input class="text-props" type="password" id="password" name="password" placeholder="Password"/>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <button class="btn-props" type="button" name="login" id="login">LOGIN</button>
+                    <button class="btn-props" type="reset"  name="reset" id="reset">Reset</button>
+                </th>
+            </tr>
+        </form>
+    </table>
+</center></body>
+</html>
